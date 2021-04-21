@@ -1,0 +1,217 @@
+/*Universal*/
+
+/*Etiquetas*/
+
+footer, header{
+    background-color: #fcf07b;
+}
+
+body{
+    background-color: #f2f2f2;
+}
+
+main{
+    width: 80%;
+    margin:auto;
+    padding: 90px;
+}
+
+p{
+    font-family: montserrat light;
+    font-size: 12pt;
+}
+
+h1{
+    font-family: montserrat regular;
+    display: inline;
+    font-size: 18pt;
+}
+
+nav>ul>li{
+    display: inline;
+    padding-left: 20px;
+    font-family: coolvetica;
+}
+
+nav>ul{
+    text-align: right;
+    display: inline;
+    float: right;
+    padding-right: 40px;
+}
+
+iframe{
+    width: 45%;
+    display: inline;
+}
+
+form{
+    float: right;
+}
+
+.menu:link {
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+
+  }
+.menu:hover {
+    background-color: #f2f2f2;
+    padding: 17px;
+    color: black;
+  }
+
+.menu:visited {
+    color: black;
+  }
+
+
+footer{
+    clear: both;
+    bottom: 0pt;
+    margin-bottom: 0pt;
+    
+}
+header{
+    padding-bottom: 15px;
+    padding-top: 15px;
+}
+nav{
+    display: inline;
+   
+}
+
+hr{
+    width:20%; margin-left: 0pt; height: 0.5pt;
+    background-color: black;
+}
+
+i{
+    font-size:40px;
+    padding-left: 30px;
+    float: center;
+    margin: auto;
+    display: block;
+    color: white;
+}
+label{
+    font-family: coolvetica;
+}
+
+input{
+    font-family: montserrat light;
+}
+
+textarea{
+    font-family: montserrat light;
+}
+
+h2{
+    font-family: coolvetica;
+    font-size: 16pt;
+}
+
+ul>li{
+    font-family: coolvetica;
+}
+
+h4{
+    font-family: montserrat regular;
+    font-size: 12pt;
+    width: 50%;
+    float: right;
+}
+/*Clases*/
+
+.footer{
+    padding: 30px;
+    font-family: montserrat;
+    text-align: center;
+}
+
+.sobremi{
+    width: 50%;
+    display: block;
+    float: left;
+}
+
+.form-field:focus{
+    background-color: rgb(172, 169, 169);
+}
+
+ul>li{
+    display: inline;
+}
+
+.hidden li{
+    visibility: hidden;
+}
+
+.hidden:hover li{
+    visibility: visible;
+}
+
+.vertical{
+    text-align: left;
+    float: left;
+}
+
+.imagenes{
+    width: 50%;
+    float: center;
+    padding-right: 30px;
+}
+
+.proyectos{
+    width: 60%;
+    padding-top: 40px;
+    text-align: left;
+    padding: 0px, auto;
+
+}
+.moleskine{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+
+
+/*ID*/
+
+#logo{
+    background-color: #fcf07b;
+    font-family: coolvetica;
+    font-size: 30px;
+    width: 25%;
+    margin-top: 0px;
+    padding-left: 25px;
+    top: 0px;
+    display: inline;
+    color: rgb(57, 57, 59);
+}
+   
+#yo{
+    width: 30%;
+    display: block;
+    float: left;
+    padding-left: 140px;
+}
+
+#flecha{
+    width: 3%;
+    bottom: 0px;
+    right: 0px;
+    display: block;
+    margin: 0px auto;
+    position: fixed;
+}
+
+#apartados{
+    float: left;
+    position: fixed;
+    padding-top: 20px;
+}
+#apartados li{
+    text-align: left;
+    display: block;
+}
+
